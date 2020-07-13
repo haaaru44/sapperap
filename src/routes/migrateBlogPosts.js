@@ -14,5 +14,6 @@ export async function get(req, res, next) {
       dbRef.child(post.slug).set(post)
     }),
   )
+
   res.end('done')
 }
