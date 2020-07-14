@@ -3,7 +3,7 @@ import serviceAccount from './../../../../sapperblog-8a647-firebase-adminsdk-p50
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: 'https://sapperblog-8a647.firebaseio.com/',
+  databaseURL: 'https://sapper-blog-6b5c2.firebaseio.com/',
 })
 
 export async function put(req, res, next) {

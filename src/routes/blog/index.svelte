@@ -1,18 +1,18 @@
 <script context="module">
   export function preload({ params, query }) {
-    return this.fetch(`https://sapperblog-8a647.firebaseio.com/.json`)
-      .then(r => r.json())
-      .then(slugWithPostObject => {
+    return this.fetch(`https://sapper-blog-6b5c2.firebaseio.com/.json`)
+      .then((r) => r.json())
+      .then((slugWithPostObject) => {
         let posts = Object.keys(slugWithPostObject).map(
-          slug => slugWithPostObject[slug]
-        );
-        return { posts };
-      });
+          (slug) => slugWithPostObject[slug],
+        )
+        return { posts }
+      })
   }
 </script>
 
 <script>
-  export let posts;
+  export let posts
 </script>
 
 <style>

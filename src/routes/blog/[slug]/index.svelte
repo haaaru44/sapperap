@@ -3,7 +3,7 @@
     // the `slug` parameter is available because
     // this file is called [slug].svelte
     const res = await this.fetch(
-      `https://sapperblog-8a647.firebaseio.com/${params.slug}.json`,
+      `https://sapper-blog-6b5c2.firebaseio.com/${params.slug}.json`,
     )
     const data = await res.json()
     if (res.status === 200) {
