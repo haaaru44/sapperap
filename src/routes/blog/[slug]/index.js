@@ -1,9 +1,9 @@
 import admin from 'firebase-admin'
-import serviceAccount from './../../../../sapper-blog-6b5c2-firebase-adminsdk-cuvii-a0fb4a7367.json'
+import serviceAccount from './../../../../sapperblog-8a647-firebase-adminsdk-p50ki-e09ee7af69.json'
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: 'https://sapper-blog-6b5c2.firebaseio.com/',
+  databaseURL: 'https://sapperblog-8a647.firebaseio.com/',
 })
 
 export async function put(req, res, next) {
