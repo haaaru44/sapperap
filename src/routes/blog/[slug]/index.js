@@ -1,5 +1,5 @@
 import admin from 'firebase-admin'
-import serviceAccount from './../../../../sapperblog-8a647-firebase-adminsdk-p50ki-375e3b4fb8.json'
+import serviceAccount from './../../../../sapper-blog-6b5c2-firebase-adminsdk-cuvii-a0fb4a7367.json'
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
