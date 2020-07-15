@@ -123,4 +123,6 @@
 {/if}
 {#if isCreateMode}
   <button on:click={createPost}>Create</button>
+{:else}
+  <a href={`/blog/${post.slug}/edit`}>Edit</a>
 {/if}
