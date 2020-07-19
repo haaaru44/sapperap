@@ -35,7 +35,7 @@
 </style>
 
 <svelte:head>
-  <title>Sapper project template</title>
+  <title>Haaaru-hash-Blog</title>
 </svelte:head>
 
 <h1>Great success!</h1>
