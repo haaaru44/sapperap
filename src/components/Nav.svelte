@@ -6,6 +6,7 @@
   nav {
     border-bottom: 1px solid rgba(255, 62, 0, 0.1);
     font-weight: 300;
+    font-size: 24px;
     padding: 0 1em;
   }
 
@@ -36,7 +37,7 @@
     content: '';
     width: calc(100% - 1em);
     height: 2px;
-    background-color: rgb(255, 62, 0);
+    background-color: rgb(99, 211, 177);
     display: block;
     bottom: -1px;
   }
