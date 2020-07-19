@@ -19,6 +19,7 @@
     "install": "^0.13.0",
     "polka": "next",
     "quill": "1.3.6",
+    "sapper-google-analytics": "^1.0.1",
     "sirv": "^0.4.0"
   },
   "devDependencies": {
