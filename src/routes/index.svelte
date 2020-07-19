@@ -50,3 +50,7 @@
     Try editing this file (src/routes/index.svelte) to test live reloading.
   </strong>
 </p>
+
+<p>
+  <a href="https://twitter.com/hash2666">お問い合わせはDMへ</a>
+</p>
